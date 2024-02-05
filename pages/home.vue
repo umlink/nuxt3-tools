@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="bg-green p-4"></div>
     <ClientOnly fallback-tag="span" fallback="Loading comments...">
       <QuillEditor />
     </ClientOnly>
