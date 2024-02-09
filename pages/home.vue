@@ -1,10 +1,9 @@
 <template>
   <div>
-    <div class="bg-green p-4"></div>
+    <div class="bg-zinc-200 p-4 border-b-solid border-b-orange">222</div>
     <ClientOnly fallback-tag="span" fallback="Loading comments...">
       <QuillEditor />
     </ClientOnly>
-    <NuxtWelcome />
   </div>
 </template>
 <script setup>

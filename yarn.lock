@@ -1559,14 +1559,14 @@
   dependencies:
     "@unocss/core" "0.58.5"
 
-"@unocss/transformer-compile-class@0.58.5":
+"@unocss/transformer-compile-class@0.58.5", "@unocss/transformer-compile-class@^0.58.5":
   version "0.58.5"
   resolved "https://registry.npmmirror.com/@unocss/transformer-compile-class/-/transformer-compile-class-0.58.5.tgz#d893498b09a0995a686e77f8c949b4a73cd546b8"
   integrity sha512-4MaxjaZo1rf5uHvDGa2mbnXxAYVYoj1+oRNpL4fE3FoExS1Ka2CiNGQn/S4bHMF51vmXMSWtOzurJpPD4BaJUQ==
   dependencies:
     "@unocss/core" "0.58.5"
 
-"@unocss/transformer-directives@0.58.5":
+"@unocss/transformer-directives@0.58.5", "@unocss/transformer-directives@^0.58.5":
   version "0.58.5"
   resolved "https://registry.npmmirror.com/@unocss/transformer-directives/-/transformer-directives-0.58.5.tgz#0ff7827b96b98f5da2b5c7ae26fa2e13153dc79d"
   integrity sha512-allspF5TlT1B2bJSZ1houHScXOTaTPlatLiEmgQKzr/m93rCvktokaO5J6qeN2VXQdpTIsxdA5B8//7UkfTuIA==
@@ -1575,7 +1575,7 @@
     "@unocss/rule-utils" "0.58.5"
     css-tree "^2.3.1"
 
-"@unocss/transformer-variant-group@0.58.5":
+"@unocss/transformer-variant-group@0.58.5", "@unocss/transformer-variant-group@^0.58.5":
   version "0.58.5"
   resolved "https://registry.npmmirror.com/@unocss/transformer-variant-group/-/transformer-variant-group-0.58.5.tgz#91fbb3406b8650136b585725496658a65831a6ab"
   integrity sha512-SjUwGzKK5CVqn7Gg+3v3hV47ZUll7GcGu0vR3RCLO4gqEfFlZWMTHml1Sl2sY1WAca2iVcDRu+dp0RLxRG/dUA==
@@ -2629,9 +2629,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.648:
-  version "1.4.662"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.662.tgz#0e014d31687210312c5f601bc9edcae2fa1663ef"
-  integrity sha512-gfl1XVWTQmPHhqEG0kN77SpUxaqPpMb9r83PT4gvKhg7P3irSxru3lW85RxvK1uI1j2CAcTWPjG/HbE0IP/Rtg==
+  version "1.4.663"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.663.tgz#c371aad99d4a18cf00b531494706ca2b0978aa55"
+  integrity sha512-P4B6wnMUV2aLvqmny1RPlAQPUBTY+skNw4WLX0cVxYQVEzmLQ2h7K2Knc69szclEjcRW63Uj06IXQwOG7GbInQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
