@@ -1,14 +1,16 @@
+<script setup lang="ts">
+const foo = useFoo()
+const { data } = await useFetch('/api/hello')
+</script>
+
 <template>
   <div>
     <Header />
+    {{foo.name}}
+    <div>{{data}}</div>
     <div class="bg-green p-4"></div>
-    <ClientOnly fallback-tag="span" fallback="Loading comments...">
-      <QuillEditor />
-    </ClientOnly>
+    <main>
+      <ContentDoc path="/introduce/home"/>
+    </main>
   </div>
 </template>
-<script setup>
-import { QuillEditor } from '@vueup/vue-quill'
-import '@vueup/vue-quill/dist/vue-quill.snow.css';
-import Header from "~/components/Header.vue";
-</script>
