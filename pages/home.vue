@@ -3,8 +3,8 @@
   const foo = useFoo();
   const appConfig = useAppConfig();
   const runtimeConfig = useRuntimeConfig();
-
   const { data } = await useFetch('/api/hello');
+  // test
 </script>
 
 <template>
